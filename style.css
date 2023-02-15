@@ -2,7 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
-
+.primary{
+    color: #e6117b;
+}
 .nav-container{
     display: flex;
     padding: 20px;
@@ -31,11 +33,6 @@
     justify-content: center;
     align-items: center;
     color: #ffffff;
-
-
-}
-.banner-details{
-    
 }
 .banner-title{
     font-size: 85px;
@@ -66,8 +63,44 @@
 }
 .btn-hire{
     background-color: rgb(244, 242, 243);
-    color: #060606;
+    color: #e6117b;
+}
+.service-title{
+    font-size: 40px;
+}
+.service-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay ;
+    color: #ffffff;
+    padding: 20px;
 }
 
+.service-description{
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+}
+.author-details{
+    display: flex;
+    align-items: center ;
+}
+.author-img-dsc{
+    display: flex;
+    align-items: center;
+    padding: 20px 80px 20px 20px;
+    border-right: 1px solid red;
+    margin-top: 20px;
+}
+.author-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    
 
+}
 
+.More-details{
+    padding: 20px;
+}
